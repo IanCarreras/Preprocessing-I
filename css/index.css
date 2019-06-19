@@ -145,5 +145,26 @@ body nav a {
 }
 html .picture-section,
 body .picture-section {
+  padding: 25px;
+  background-color: #d3d3d3;
+}
+html .about-me-section,
+body .about-me-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+html .about-me-section .left-side,
+body .about-me-section .left-side {
+  width: 50%;
+}
+html .work-history,
+body .work-history {
   border: 1px solid black;
+}
+html footer,
+body footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
 }
