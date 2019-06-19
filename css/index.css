@@ -134,3 +134,16 @@ html,
 body {
   height: 100%;
 }
+html nav,
+body nav {
+  display: flex;
+  justify-content: flex-end;
+}
+html nav a,
+body nav a {
+  padding: 10px;
+}
+html .picture-section,
+body .picture-section {
+  border: 1px solid black;
+}
