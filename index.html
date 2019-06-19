@@ -15,18 +15,18 @@
 
 <body>
   <nav>
-    <a>Home</a>
-    <a>About</a>
-    <a>Portfolio</a>
-    <a>Contact</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
   </nav>
 
   <section class="picture-section">
     <img class="my-resume-pic" src="images/resume-pic.jpg">
-    <h1>Ian Carreras - WEB DEV</h1>
-    <h3>Coding is fun</h3>
-    <p>Occasionally I have time to work on side projects, if you're interested, let me know by signing up on this website.</p>
-    <button>Let's Team Up</button>
+    <h1 class="picture-section-child">Ian Carreras - WEB DEV</h1>
+    <h3 class="picture-section-child">Coding is fun</h3>
+    <p class="picture-section-child">Occasionally I have time to work on side projects, if you're interested, let me know by signing up on this website.</p>
+    <button class="picture-section-child">Let's Team Up</button>
   </section>
 
   <section class="about-me-section">
@@ -47,31 +47,28 @@
     </div>
   </section>
 
-  <table class="work-history">
-    <thead>
-      <tr>Work History</tr>
-    </thead> 
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Apple</td>
-        <td>Software Engineer</td>
-        <td>Swift</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Microsoft</td>
-        <td>Computer Scientist</td>
-        <td>.NET</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Amazon</td>
-        <td>Dev Ops</td>
-        <td>AWS</td>
-      </tr>
-    </tbody>   
-  </table>
+  <section class="work-history">
+    <h2>Work History</h2>
+    <div class="column">
+      <span>1</span>
+      <span>Apple</span>
+      <span>Software Engineer</span>
+      <span>Swift</span>
+    </div>
+    <div class="column">
+      <span>2</span>
+      <span>Microsoft</span>
+      <span>Computer Scientist</span>
+      <span>.NET</span>
+	.picture-section {
+  </div>
+    <div class="column">
+      <span>3</span>
+      <span>Amazon</span>
+      <span>Dev Ops</span>
+      <span>AWS</span>
+    </div>
+  </section>
 
   <footer>
     Copyright 2019

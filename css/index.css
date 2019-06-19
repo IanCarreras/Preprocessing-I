@@ -138,15 +138,28 @@ html nav,
 body nav {
   display: flex;
   justify-content: flex-end;
+  width: 95%;
 }
 html nav a,
 body nav a {
+  color: black;
   padding: 10px;
+  text-decoration: none;
 }
 html .picture-section,
 body .picture-section {
   padding: 25px;
   background-color: #d3d3d3;
+}
+html .picture-section .picture-section-child,
+body .picture-section .picture-section-child {
+  margin-top: 15px;
+}
+html .picture-section p,
+body .picture-section p {
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  height: 20px;
 }
 html .about-me-section,
 body .about-me-section {
@@ -161,6 +174,14 @@ body .about-me-section .left-side {
 html .work-history,
 body .work-history {
   border: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
+}
+html .work-history .column,
+body .work-history .column {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 html footer,
 body footer {
